@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+
+/* SVG Background*/
+
+.pat1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.pat2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/* row 1*/
+
+.text {
+    font-size: 46px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.txt {
+    color: hsl(303, 10%, 53%);
+}
+
+.star {
+    background: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 450px;
+}
+
+
+/* use media queries to balance out the margins for mobile view*/
+
+.star-margin-1 {
+    margin-left: 50px;
+}
+
+.star-margin-2 {
+    margin-left: 100px;
+}
+
+.txt-star {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.star-star {
+    padding-top: 15px;
+    width: 120px;
+}
